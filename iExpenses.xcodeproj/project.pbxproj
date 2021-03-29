@@ -7,31 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9129ECC5257EC8F100650C87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9129ECC4257EC8F100650C87 /* AppDelegate.swift */; };
-		9129ECC7257EC8F100650C87 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9129ECC6257EC8F100650C87 /* SceneDelegate.swift */; };
-		9129ECC9257EC8F100650C87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9129ECC8257EC8F100650C87 /* ViewController.swift */; };
-		9129ECCC257EC8F100650C87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9129ECCA257EC8F100650C87 /* Main.storyboard */; };
-		9129ECCE257EC8F100650C87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9129ECCD257EC8F100650C87 /* Assets.xcassets */; };
-		9129ECD1257EC8F100650C87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9129ECCF257EC8F100650C87 /* LaunchScreen.storyboard */; };
-		9129ECDB257ED98300650C87 /* Balance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9129ECDA257ED98300650C87 /* Balance.swift */; };
-		91853AB0257FBE180048982F /* ShowError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91853AAF257FBE180048982F /* ShowError.swift */; };
+		CD9B340E2610C4DA00C091D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9B340D2610C4DA00C091D8 /* AppDelegate.swift */; };
+		CD9B34102610C4DA00C091D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9B340F2610C4DA00C091D8 /* SceneDelegate.swift */; };
+		CD9B34122610C4DA00C091D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9B34112610C4DA00C091D8 /* ContentView.swift */; };
+		CD9B34142610C4DD00C091D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9B34132610C4DD00C091D8 /* Assets.xcassets */; };
+		CD9B34172610C4DD00C091D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9B34162610C4DD00C091D8 /* Preview Assets.xcassets */; };
+		CD9B341A2610C4DD00C091D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9B34182610C4DD00C091D8 /* LaunchScreen.storyboard */; };
+		CD9B34232610C54600C091D8 /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9B34222610C54600C091D8 /* ExpenseItem.swift */; };
+		CD9B34262610C60000C091D8 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9B34252610C60000C091D8 /* Expenses.swift */; };
+		CD9B34312610CDB900C091D8 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9B34302610CDB900C091D8 /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9129ECC1257EC8F100650C87 /* PocketBudgetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketBudgetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9129ECC4257EC8F100650C87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9129ECC6257EC8F100650C87 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9129ECC8257EC8F100650C87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9129ECCB257EC8F100650C87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9129ECCD257EC8F100650C87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9129ECD0257EC8F100650C87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9129ECD2257EC8F100650C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9129ECDA257ED98300650C87 /* Balance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Balance.swift; sourceTree = "<group>"; };
-		91853AAF257FBE180048982F /* ShowError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowError.swift; sourceTree = "<group>"; };
+		CD9B340A2610C4DA00C091D8 /* iExpenses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iExpenses.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9B340D2610C4DA00C091D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD9B340F2610C4DA00C091D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CD9B34112610C4DA00C091D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CD9B34132610C4DD00C091D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD9B34162610C4DD00C091D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD9B34192610C4DD00C091D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD9B341B2610C4DD00C091D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9B34222610C54600C091D8 /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
+		CD9B34252610C60000C091D8 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		CD9B34302610CDB900C091D8 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9129ECBE257EC8F100650C87 /* Frameworks */ = {
+		CD9B34072610C4DA00C091D8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,73 +43,82 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9129ECB8257EC8F100650C87 = {
+		CD9B34012610C4DA00C091D8 = {
 			isa = PBXGroup;
 			children = (
-				9129ECC3257EC8F100650C87 /* PocketBudgetApp */,
-				9129ECC2257EC8F100650C87 /* Products */,
+				CD9B340C2610C4DA00C091D8 /* iExpenses */,
+				CD9B340B2610C4DA00C091D8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9129ECC2257EC8F100650C87 /* Products */ = {
+		CD9B340B2610C4DA00C091D8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9129ECC1257EC8F100650C87 /* PocketBudgetApp.app */,
+				CD9B340A2610C4DA00C091D8 /* iExpenses.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9129ECC3257EC8F100650C87 /* PocketBudgetApp */ = {
+		CD9B340C2610C4DA00C091D8 /* iExpenses */ = {
 			isa = PBXGroup;
 			children = (
-				9129ECC4257EC8F100650C87 /* AppDelegate.swift */,
-				9129ECC6257EC8F100650C87 /* SceneDelegate.swift */,
-				9129ECC8257EC8F100650C87 /* ViewController.swift */,
-				9129ECDA257ED98300650C87 /* Balance.swift */,
-				9129ECCA257EC8F100650C87 /* Main.storyboard */,
-				9129ECCD257EC8F100650C87 /* Assets.xcassets */,
-				9129ECCF257EC8F100650C87 /* LaunchScreen.storyboard */,
-				9129ECD2257EC8F100650C87 /* Info.plist */,
-				91853AAF257FBE180048982F /* ShowError.swift */,
+				CD9B340D2610C4DA00C091D8 /* AppDelegate.swift */,
+				CD9B340F2610C4DA00C091D8 /* SceneDelegate.swift */,
+				CD9B34112610C4DA00C091D8 /* ContentView.swift */,
+				CD9B34302610CDB900C091D8 /* AddView.swift */,
+				CD9B34132610C4DD00C091D8 /* Assets.xcassets */,
+				CD9B34182610C4DD00C091D8 /* LaunchScreen.storyboard */,
+				CD9B341B2610C4DD00C091D8 /* Info.plist */,
+				CD9B34152610C4DD00C091D8 /* Preview Content */,
+				CD9B34222610C54600C091D8 /* ExpenseItem.swift */,
+				CD9B34252610C60000C091D8 /* Expenses.swift */,
 			);
-			path = PocketBudgetApp;
+			path = iExpenses;
+			sourceTree = "<group>";
+		};
+		CD9B34152610C4DD00C091D8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CD9B34162610C4DD00C091D8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9129ECC0257EC8F100650C87 /* PocketBudgetApp */ = {
+		CD9B34092610C4DA00C091D8 /* iExpenses */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9129ECD5257EC8F100650C87 /* Build configuration list for PBXNativeTarget "PocketBudgetApp" */;
+			buildConfigurationList = CD9B341E2610C4DD00C091D8 /* Build configuration list for PBXNativeTarget "iExpenses" */;
 			buildPhases = (
-				9129ECBD257EC8F100650C87 /* Sources */,
-				9129ECBE257EC8F100650C87 /* Frameworks */,
-				9129ECBF257EC8F100650C87 /* Resources */,
+				CD9B34062610C4DA00C091D8 /* Sources */,
+				CD9B34072610C4DA00C091D8 /* Frameworks */,
+				CD9B34082610C4DA00C091D8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PocketBudgetApp;
-			productName = PocketBudgetApp;
-			productReference = 9129ECC1257EC8F100650C87 /* PocketBudgetApp.app */;
+			name = iExpenses;
+			productName = iExpenses;
+			productReference = CD9B340A2610C4DA00C091D8 /* iExpenses.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9129ECB9257EC8F100650C87 /* Project object */ = {
+		CD9B34022610C4DA00C091D8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1220;
-				LastUpgradeCheck = 1220;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					9129ECC0257EC8F100650C87 = {
-						CreatedOnToolsVersion = 12.2;
+					CD9B34092610C4DA00C091D8 = {
+						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = 9129ECBC257EC8F100650C87 /* Build configuration list for PBXProject "PocketBudgetApp" */;
+			buildConfigurationList = CD9B34052610C4DA00C091D8 /* Build configuration list for PBXProject "iExpenses" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,57 +126,50 @@
 				en,
 				Base,
 			);
-			mainGroup = 9129ECB8257EC8F100650C87;
-			productRefGroup = 9129ECC2257EC8F100650C87 /* Products */;
+			mainGroup = CD9B34012610C4DA00C091D8;
+			productRefGroup = CD9B340B2610C4DA00C091D8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9129ECC0257EC8F100650C87 /* PocketBudgetApp */,
+				CD9B34092610C4DA00C091D8 /* iExpenses */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9129ECBF257EC8F100650C87 /* Resources */ = {
+		CD9B34082610C4DA00C091D8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9129ECD1257EC8F100650C87 /* LaunchScreen.storyboard in Resources */,
-				9129ECCE257EC8F100650C87 /* Assets.xcassets in Resources */,
-				9129ECCC257EC8F100650C87 /* Main.storyboard in Resources */,
+				CD9B341A2610C4DD00C091D8 /* LaunchScreen.storyboard in Resources */,
+				CD9B34172610C4DD00C091D8 /* Preview Assets.xcassets in Resources */,
+				CD9B34142610C4DD00C091D8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9129ECBD257EC8F100650C87 /* Sources */ = {
+		CD9B34062610C4DA00C091D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9129ECC9257EC8F100650C87 /* ViewController.swift in Sources */,
-				9129ECC5257EC8F100650C87 /* AppDelegate.swift in Sources */,
-				9129ECDB257ED98300650C87 /* Balance.swift in Sources */,
-				9129ECC7257EC8F100650C87 /* SceneDelegate.swift in Sources */,
-				91853AB0257FBE180048982F /* ShowError.swift in Sources */,
+				CD9B34262610C60000C091D8 /* Expenses.swift in Sources */,
+				CD9B340E2610C4DA00C091D8 /* AppDelegate.swift in Sources */,
+				CD9B34312610CDB900C091D8 /* AddView.swift in Sources */,
+				CD9B34102610C4DA00C091D8 /* SceneDelegate.swift in Sources */,
+				CD9B34122610C4DA00C091D8 /* ContentView.swift in Sources */,
+				CD9B34232610C54600C091D8 /* ExpenseItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9129ECCA257EC8F100650C87 /* Main.storyboard */ = {
+		CD9B34182610C4DD00C091D8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9129ECCB257EC8F100650C87 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9129ECCF257EC8F100650C87 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9129ECD0257EC8F100650C87 /* Base */,
+				CD9B34192610C4DD00C091D8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -173,7 +177,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9129ECD3257EC8F100650C87 /* Debug */ = {
+		CD9B341C2610C4DD00C091D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -224,7 +228,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -234,7 +238,7 @@
 			};
 			name = Debug;
 		};
-		9129ECD4257EC8F100650C87 /* Release */ = {
+		CD9B341D2610C4DD00C091D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -279,7 +283,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -289,66 +293,70 @@
 			};
 			name = Release;
 		};
-		9129ECD6257EC8F100650C87 /* Debug */ = {
+		CD9B341F2610C4DD00C091D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iExpenses/Preview Content\"";
 				DEVELOPMENT_TEAM = 8T998FMSKS;
-				INFOPLIST_FILE = PocketBudgetApp/Info.plist;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iExpenses/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.maliot..PocketBudgetApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maliotparna.iExpenses.iExpenses;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		9129ECD7257EC8F100650C87 /* Release */ = {
+		CD9B34202610C4DD00C091D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iExpenses/Preview Content\"";
 				DEVELOPMENT_TEAM = 8T998FMSKS;
-				INFOPLIST_FILE = PocketBudgetApp/Info.plist;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iExpenses/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.maliot..PocketBudgetApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maliotparna.iExpenses.iExpenses;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9129ECBC257EC8F100650C87 /* Build configuration list for PBXProject "PocketBudgetApp" */ = {
+		CD9B34052610C4DA00C091D8 /* Build configuration list for PBXProject "iExpenses" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9129ECD3257EC8F100650C87 /* Debug */,
-				9129ECD4257EC8F100650C87 /* Release */,
+				CD9B341C2610C4DD00C091D8 /* Debug */,
+				CD9B341D2610C4DD00C091D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9129ECD5257EC8F100650C87 /* Build configuration list for PBXNativeTarget "PocketBudgetApp" */ = {
+		CD9B341E2610C4DD00C091D8 /* Build configuration list for PBXNativeTarget "iExpenses" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9129ECD6257EC8F100650C87 /* Debug */,
-				9129ECD7257EC8F100650C87 /* Release */,
+				CD9B341F2610C4DD00C091D8 /* Debug */,
+				CD9B34202610C4DD00C091D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9129ECB9257EC8F100650C87 /* Project object */;
+	rootObject = CD9B34022610C4DA00C091D8 /* Project object */;
 }

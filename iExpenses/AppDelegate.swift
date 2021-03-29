@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  PocketBudgetApp
+//  iExpenses
 //
-//  Created by Igor Parnadjiev on 7.12.20.
+//  Created by Igor Parnadjiev on 28.3.21.
 //
 
 import UIKit
